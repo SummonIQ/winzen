@@ -1,0 +1,33 @@
+{
+  "name": "@winzen/desktop-app-electrobun",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "electrobun dev",
+    "dev": "bun ../scripts/dev-electrobun.ts",
+    "vite": "vite",
+    "build": "bunx electrobun build"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.1",
+    "clsx": "^2.1.1",
+    "electrobun": "1.16.0",
+    "framer-motion": "^12.35.0",
+    "lucide-react": "^1.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  }
+}

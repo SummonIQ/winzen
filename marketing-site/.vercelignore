@@ -1,0 +1,8 @@
+.DS_Store
+.env
+.env.local
+.next
+.turbo
+node_modules
+public/downloads/WinMan.dmg
+*.tsbuildinfo

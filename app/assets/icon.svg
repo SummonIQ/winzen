@@ -1,0 +1,52 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="overlayGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.12" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.14" />
+    </linearGradient>
+    <linearGradient id="windowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#F3F4F6;stop-opacity:0.95" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="256" cy="256" r="240" fill="url(#bgGradient)"/>
+  <circle cx="256" cy="256" r="240" fill="url(#overlayGradient)"/>
+  
+  <!-- Window grid representing multiple spaces/windows -->
+  <!-- Back window (left) -->
+  <rect x="100" y="140" width="140" height="180" rx="12" fill="url(#windowGradient)" opacity="0.4"/>
+  <rect x="100" y="140" width="140" height="28" rx="12" fill="#E5E7EB" opacity="0.5"/>
+  <circle cx="115" cy="154" r="4" fill="#EF4444" opacity="0.6"/>
+  <circle cx="130" cy="154" r="4" fill="#F59E0B" opacity="0.6"/>
+  <circle cx="145" cy="154" r="4" fill="#10B981" opacity="0.6"/>
+  
+  <!-- Middle window (center) -->
+  <rect x="186" y="180" width="140" height="180" rx="12" fill="url(#windowGradient)" opacity="0.7"/>
+  <rect x="186" y="180" width="140" height="28" rx="12" fill="#E5E7EB" opacity="0.7"/>
+  <circle cx="201" cy="194" r="4" fill="#EF4444" opacity="0.8"/>
+  <circle cx="216" cy="194" r="4" fill="#F59E0B" opacity="0.8"/>
+  <circle cx="231" cy="194" r="4" fill="#10B981" opacity="0.8"/>
+  
+  <!-- Front window (right) -->
+  <rect x="272" y="140" width="140" height="180" rx="12" fill="url(#windowGradient)"/>
+  <rect x="272" y="140" width="140" height="28" rx="12" fill="#E5E7EB"/>
+  <circle cx="287" cy="154" r="4" fill="#EF4444"/>
+  <circle cx="302" cy="154" r="4" fill="#F59E0B"/>
+  <circle cx="317" cy="154" r="4" fill="#10B981"/>
+  
+  <!-- Content lines in front window -->
+  <rect x="288" y="184" width="80" height="6" rx="3" fill="#9CA3AF" opacity="0.3"/>
+  <rect x="288" y="200" width="108" height="6" rx="3" fill="#9CA3AF" opacity="0.3"/>
+  <rect x="288" y="216" width="95" height="6" rx="3" fill="#9CA3AF" opacity="0.3"/>
+  
+  <!-- Shortcut indicator (Cmd+D) at bottom -->
+  <rect x="186" y="370" width="140" height="36" rx="8" fill="#1F2937" opacity="0.15"/>
+  <text x="256" y="393" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF" text-anchor="middle">⌘ D</text>
+</svg>

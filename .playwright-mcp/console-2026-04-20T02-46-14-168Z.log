@@ -1,0 +1,476 @@
+[ 8196701ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:21548
+[ 8196759ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[ 8196759ms] TypeError: Cannot read properties of undefined (reading 'onSpaceScreenshotUpdate')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:201:29
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[ 8196759ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at invokePassiveEffectMountInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18322:19)
+    at invokeEffectsInDev (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19699:19)
+    at commitDoubleInvokeEffectsInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19684:15)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19501:13)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+    at flushWork (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:174:22)
+[ 8196762ms] TypeError: Cannot read properties of undefined (reading 'onSpaceScreenshotUpdate')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:201:29
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at invokePassiveEffectMountInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18322:19)
+    at invokeEffectsInDev (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19699:19)
+    at commitDoubleInvokeEffectsInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19684:15)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19501:13)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+    at flushWork (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:174:22)
+[ 8196731ms] [ERROR] The above error occurred in the <SpaceGridComponent> component:
+
+    at SpaceGridComponent (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:125:3)
+    at div
+    at div
+    at div
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[ 8196732ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[ 8196732ms] [ERROR] The above error occurred in the <SpaceGridComponent> component:
+
+    at SpaceGridComponent (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:125:3)
+    at div
+    at div
+    at div
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[ 8196732ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[ 8196763ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[ 8196733ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:30234/favicon.ico:0
+[19700935ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:21548
+[19700947ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[19700948ms] TypeError: Cannot read properties of undefined (reading 'onSpaceScreenshotUpdate')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:201:29
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[19700948ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at invokePassiveEffectMountInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18322:19)
+    at invokeEffectsInDev (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19699:19)
+    at commitDoubleInvokeEffectsInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19684:15)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19501:13)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+    at flushWork (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:174:22)
+[19700948ms] TypeError: Cannot read properties of undefined (reading 'onSpaceScreenshotUpdate')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:201:29
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at invokePassiveEffectMountInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18322:19)
+    at invokeEffectsInDev (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19699:19)
+    at commitDoubleInvokeEffectsInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19684:15)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19501:13)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+    at flushWork (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:174:22)
+[19700948ms] [ERROR] The above error occurred in the <SpaceGridComponent> component:
+
+    at SpaceGridComponent (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:125:3)
+    at div
+    at div
+    at div
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[19700948ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[19700948ms] [ERROR] The above error occurred in the <SpaceGridComponent> component:
+
+    at SpaceGridComponent (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:125:3)
+    at div
+    at div
+    at div
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[19700948ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[19700952ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[35040939ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:30234/@vite/client:559
+[35040976ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[35041981ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[35042984ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[35043986ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[35045094ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:21548
+[35045154ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[35045155ms] TypeError: Cannot read properties of undefined (reading 'onSpaceScreenshotUpdate')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:201:29
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[35045156ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at invokePassiveEffectMountInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18322:19)
+    at invokeEffectsInDev (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19699:19)
+    at commitDoubleInvokeEffectsInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19684:15)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19501:13)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+    at flushWork (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:174:22)
+[35045156ms] TypeError: Cannot read properties of undefined (reading 'onSpaceScreenshotUpdate')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:201:29
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at invokePassiveEffectMountInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18322:19)
+    at invokeEffectsInDev (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19699:19)
+    at commitDoubleInvokeEffectsInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19684:15)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19501:13)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+    at flushWork (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:174:22)
+[35045155ms] [ERROR] The above error occurred in the <SpaceGridComponent> component:
+
+    at SpaceGridComponent (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:125:3)
+    at div
+    at div
+    at div
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[35045155ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[35045155ms] [ERROR] The above error occurred in the <SpaceGridComponent> component:
+
+    at SpaceGridComponent (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:125:3)
+    at div
+    at div
+    at div
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[35045155ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[35045156ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[35148802ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:21548
+[35148810ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[35148810ms] TypeError: Cannot read properties of undefined (reading 'onSpaceScreenshotUpdate')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:201:29
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[35148810ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at invokePassiveEffectMountInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18322:19)
+    at invokeEffectsInDev (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19699:19)
+    at commitDoubleInvokeEffectsInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19684:15)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19501:13)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+    at flushWork (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:174:22)
+[35148810ms] TypeError: Cannot read properties of undefined (reading 'onSpaceScreenshotUpdate')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:201:29
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at invokePassiveEffectMountInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18322:19)
+    at invokeEffectsInDev (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19699:19)
+    at commitDoubleInvokeEffectsInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19684:15)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19501:13)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+    at flushWork (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:174:22)
+[35148811ms] [ERROR] The above error occurred in the <SpaceGridComponent> component:
+
+    at SpaceGridComponent (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:125:3)
+    at div
+    at div
+    at div
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[35148811ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[35148811ms] [ERROR] The above error occurred in the <SpaceGridComponent> component:
+
+    at SpaceGridComponent (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:125:3)
+    at div
+    at div
+    at div
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[35148811ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[35148811ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[36059251ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:30234/@vite/client:559
+[36059254ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36060256ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36061258ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36062470ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:21548
+[36062480ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[36062481ms] TypeError: Cannot read properties of undefined (reading 'onSpaceScreenshotUpdate')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:201:29
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[36062481ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at invokePassiveEffectMountInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18322:19)
+    at invokeEffectsInDev (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19699:19)
+    at commitDoubleInvokeEffectsInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19684:15)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19501:13)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+    at flushWork (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:174:22)
+[36062481ms] TypeError: Cannot read properties of undefined (reading 'onSpaceScreenshotUpdate')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:201:29
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at invokePassiveEffectMountInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18322:19)
+    at invokeEffectsInDev (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19699:19)
+    at commitDoubleInvokeEffectsInDEV (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19684:15)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19501:13)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+    at flushWork (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:174:22)
+[36062481ms] [ERROR] The above error occurred in the <SpaceGridComponent> component:
+
+    at SpaceGridComponent (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:125:3)
+    at div
+    at div
+    at div
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[36062481ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[36062481ms] [ERROR] The above error occurred in the <SpaceGridComponent> component:
+
+    at SpaceGridComponent (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:125:3)
+    at div
+    at div
+    at div
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[36062481ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/App.tsx:64:18)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:14029
+[36062482ms] TypeError: Cannot read properties of undefined (reading 'setOverlayColors')
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/app/renderer/src/components/SpaceGrid.tsx:320:21
+    at commitHookEffectListMount (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:16913:34)
+    at commitPassiveMountOnFiber (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18154:19)
+    at commitPassiveMountEffects_complete (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18127:17)
+    at commitPassiveMountEffects_begin (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18117:15)
+    at commitPassiveMountEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:18107:11)
+    at flushPassiveEffectsImpl (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19488:11)
+    at flushPassiveEffects (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19445:22)
+    at http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:19326:17
+    at workLoop (http://127.0.0.1:30234/@fs/Users/steven/Projects/winzen/desktop-app-electrobun/node_modules/.vite/deps/chunk-NLXC55RF.js?v=7c8b8b9a:195:42)
+[36114541ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:30234/@vite/client:559
+[36114543ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36115546ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36116549ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36117552ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36118556ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36119560ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36120563ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36121568ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36122572ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36123575ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36124579ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36125583ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36126587ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36127590ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36128593ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36129597ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36130600ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36131603ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36132606ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36133609ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36134612ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36135615ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36136618ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36137622ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0
+[36138625ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:30234/:0

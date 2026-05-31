@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Winzen</title>
+    <script>
+      // In dev mode, BrowserWindow.url points directly to the Vite dev server.
+      // This file is used in production where the Vite build output is served.
+      // For dev convenience, redirect to the dev server if accessed directly.
+      if (
+        window.location.protocol === "views:" ||
+        window.location.hostname === ""
+      ) {
+        window.location.href = "http://127.0.0.1:30234";
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "name": "@winzen/monorepo",
+  "packageManager": "bun@1.2.21",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "turbo": "^2.3.3",
+    "typescript": "^5.9.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "bun run dev:cleanup && turbo run dev --parallel",
+    "start": "bun run dev",
+    "dev:cleanup": "bun run scripts/cleanup-dev.ts",
+    "dev:open-browser": "sleep 3 && open http://localhost:30231",
+    "dev:desktop-app": "cd desktop-app-electrobun && bun run dev",
+    "dev:desktop": "bun run dev:desktop-app",
+    "start:desktop-app": "bun run dev:desktop-app",
+    "start:desktop": "bun run dev:desktop-app",
+    "start:marketing": "bun run dev:marketing-site",
+    "dev:marketing-site": "bun run dev:cleanup && cd marketing-site && bun run dev",
+    "build": "turbo run build",
+    "build:desktop-app": "cd desktop-app-electrobun && bun run build",
+    "test:e2e:desktop-app-installed": "echo 'No installed desktop E2E runner configured for Electrobun yet' && exit 1",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "dev:electrobun": "bun run scripts/dev-electrobun.ts",
+    "build:electrobun": "cd desktop-app-electrobun && bun run build"
+  },
+  "workspaces": [
+    "desktop-app-electrobun",
+    "marketing-site"
+  ]
+}
